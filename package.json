@@ -1,0 +1,29 @@
+{
+  "name": "argv-mount",
+  "version": "0.0.1",
+  "description": "A simple parser for given arguments when running a script with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test -a --argv --item=a -i b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TheBrokenFlyer/argv-mount.git"
+  },
+  "keywords": [
+    "args",
+    "argc",
+    "argv",
+    "arguments",
+    "parser"
+  ],
+  "author": "Wilker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBrokenFlyer/argv-mount/issues"
+  },
+  "homepage": "https://github.com/TheBrokenFlyer/argv-mount#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}

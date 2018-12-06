@@ -1,0 +1,42 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaVersion": 2018
+	},
+	"rules": {
+		"indent": [2,"tab"],
+		"linebreak-style": [0,"unix"],
+		"quotes": [1,"double"],
+		"semi": [2,"never"],
+		"no-unused-vars":"warn",
+		"require-jsdoc": [1, {
+			"require": {
+				"FunctionDeclaration": true,
+				"MethodDefinition": true,
+				"ClassDeclaration": true,
+				"ArrowFunctionExpression": true,
+				"FunctionExpression": true
+			}
+		}],
+		"valid-jsdoc": [1,{
+			"prefer": {
+				"return": "returns",
+				"arg": "param",
+				"argument": "param",
+				"constructor":"class"
+			},
+			"preferType": {
+				"Boolean": "boolean",
+				"Number": "number",
+				"Object": "object",
+				"String": "string"
+			},
+			"requireReturn": true
+		}]
+	}
+}
