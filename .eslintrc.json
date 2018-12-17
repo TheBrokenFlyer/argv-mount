@@ -28,7 +28,7 @@
 				"return": "returns",
 				"arg": "param",
 				"argument": "param",
-				"constructor":"class"
+				"class": "constructor"
 			},
 			"preferType": {
 				"Boolean": "boolean",
